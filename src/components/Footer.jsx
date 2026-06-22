@@ -146,13 +146,18 @@ const Footer = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
                 <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-72 bg-gray-900 border border-gray-700 rounded-xl p-4 text-xs text-gray-300 leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50 shadow-xl">
                   <p className="font-semibold text-white mb-2">Privacy Policy</p>
-                  <p>We respect your privacy. Any personal information you provide is used solely to improve your experience on JobPortal, match you with relevant opportunities, and is never sold to third parties. You can review or update your data at any time through your account settings.</p>
+                  <p>We respect your privacy and are committed to protecting your personal data. We only collect information necessary to provide our services, never sell your data to third parties, and give you control over your information at all times.</p>
                   <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-700"></div>
                 </div>
               </a>
               <a className="group relative hover:text-white transition-colors duration-300">
                 <span className="relative z-10">Terms of Service</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-72 bg-gray-900 border border-gray-700 rounded-xl p-4 text-xs text-gray-300 leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50 shadow-xl">
+                  <p className="font-semibold text-white mb-2">Terms of Service</p>
+                  <p>By using JobPortal, you agree to use our platform responsibly and provide accurate information. We reserve the right to suspend accounts that violate our community guidelines or misuse the service.</p>
+                  <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-700"></div>
+                </div>
               </a>
               <a className="group relative hover:text-white transition-colors duration-300">
                 <span className="relative z-10">Cookie Policy</span>
